@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin-bottom: 85px;
+}
+
+.apps{
+    background: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.apps p{
+    font-size: 14.5px;
+}
+
+button{
+    border: none;
+    background: white;
+    color: white;
+}
+
+button img{
+    background: white;
+    width: 80%;
+}
+
+.apps a{
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 12px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 5%;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main img{
+    width: 18%;
+    margin: 15px;
+}
+
+.input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 30px;
+    width: 40%;
+    height: 45px;
+}
+
+.input img{
+    width: 13px;
+    height: 20px ;
+}
+
+.input input{
+    width: 75%;
+    border: none;
+    height: 45px;
+}
+
+.sideIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sideIcons img{
+    width: 14px;
+    height: 20px;
+}
+
+.button{
+   margin: 30px;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   gap: 10px;
+}
+
+.button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(234, 232, 232);
+    padding: 18px;
+    color: black;
+    border: 1px solid rgb(234, 232, 232) ;
+    border-radius: 5px;
+    width: 140px;
+    height: 10px;
+    font-size: 13px;
+}
+
+.language{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7px;
+}
+
+.language a{
+    text-decoration: none;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 225px;
+}
+
+.bottom p{
+    background:  rgb(234, 232, 232);
+    padding: 15px;
+    color: gray;
+    font-size: 17px;
+}
+
+.bottombar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  rgb(234, 232, 232);
+    padding: 15px;
+    color: gray;
+    font-size: 17px;
+    border: 1px solid rgb(159, 158, 158);
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.left a{
+    text-decoration: none;
+    color: gray;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.right a{
+    text-decoration: none;
+    color: gray;
+}
